@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		11DC14FB2C8DACBE00F6142F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC14FA2C8DACBE00F6142F /* AppDelegate.swift */; };
 		11DC14FD2C8DACBE00F6142F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC14FC2C8DACBE00F6142F /* SceneDelegate.swift */; };
-		11DC14FF2C8DACBE00F6142F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC14FE2C8DACBE00F6142F /* ViewController.swift */; };
-		11DC15022C8DACBE00F6142F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 11DC15012C8DACBE00F6142F /* Base */; };
 		11DC15042C8DACBF00F6142F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DC15032C8DACBF00F6142F /* Assets.xcassets */; };
 		11DC15072C8DACBF00F6142F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 11DC15062C8DACBF00F6142F /* Base */; };
+		11DC150F2C8DAD1500F6142F /* CustomTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC150E2C8DAD1500F6142F /* CustomTabbarController.swift */; };
+		11DC15112C8DBD5700F6142F /* GeminiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC15102C8DBD5700F6142F /* GeminiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11DC14F72C8DACBE00F6142F /* customTabbarNoSB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customTabbarNoSB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DC14FA2C8DACBE00F6142F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11DC14FC2C8DACBE00F6142F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11DC14FE2C8DACBE00F6142F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		11DC15012C8DACBE00F6142F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11DC15032C8DACBF00F6142F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11DC15062C8DACBF00F6142F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11DC15082C8DACBF00F6142F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11DC150E2C8DAD1500F6142F /* CustomTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarController.swift; sourceTree = "<group>"; };
+		11DC15102C8DBD5700F6142F /* GeminiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +58,11 @@
 			children = (
 				11DC14FA2C8DACBE00F6142F /* AppDelegate.swift */,
 				11DC14FC2C8DACBE00F6142F /* SceneDelegate.swift */,
-				11DC14FE2C8DACBE00F6142F /* ViewController.swift */,
-				11DC15002C8DACBE00F6142F /* Main.storyboard */,
 				11DC15032C8DACBF00F6142F /* Assets.xcassets */,
 				11DC15052C8DACBF00F6142F /* LaunchScreen.storyboard */,
 				11DC15082C8DACBF00F6142F /* Info.plist */,
+				11DC150E2C8DAD1500F6142F /* CustomTabbarController.swift */,
+				11DC15102C8DBD5700F6142F /* GeminiViewController.swift */,
 			);
 			path = customTabbarNoSB;
 			sourceTree = "<group>";
@@ -127,7 +127,6 @@
 			files = (
 				11DC15042C8DACBF00F6142F /* Assets.xcassets in Resources */,
 				11DC15072C8DACBF00F6142F /* Base in Resources */,
-				11DC15022C8DACBE00F6142F /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11DC14FF2C8DACBE00F6142F /* ViewController.swift in Sources */,
 				11DC14FB2C8DACBE00F6142F /* AppDelegate.swift in Sources */,
+				11DC15112C8DBD5700F6142F /* GeminiViewController.swift in Sources */,
+				11DC150F2C8DAD1500F6142F /* CustomTabbarController.swift in Sources */,
 				11DC14FD2C8DACBE00F6142F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		11DC15002C8DACBE00F6142F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				11DC15012C8DACBE00F6142F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		11DC15052C8DACBF00F6142F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +289,6 @@
 				INFOPLIST_FILE = customTabbarNoSB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +316,6 @@
 				INFOPLIST_FILE = customTabbarNoSB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
